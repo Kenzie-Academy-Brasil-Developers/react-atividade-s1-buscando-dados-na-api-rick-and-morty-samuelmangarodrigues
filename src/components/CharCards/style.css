@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(221, 240, 247);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jura", sans-serif;
+  color: lightgray;
+  font-size: 20px;
+}
+
+.cardAlive {
+  margin: 30px;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.cardAlive:hover {
+  background-color: green;
+  color: white;
+  transition: 0.5s;
+}
+.cardDied {
+  margin: 30px;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.cardDied:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+}
+.imgs {
+  width: 300px;
+}
+.imgs:hover {
+  width: 320px;
+  transition: 0.6s;
+}
+.titles {
+  color: black;
+}
+.titlesCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+.Characters {
+  color: black;
+  font-family: "Jura", sans-serif;
+}
